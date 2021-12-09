@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background:#00635D;
+    }
+
+.container {
+    margin:100px auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    max-width: 700px;
+    padding:70px;
+    background:#FEFEE3;
+
+}
+
+.container h1 {
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.form input {
+    padding:4px;
+    font-size:1.0rem;
+
+}
+
+.form button {
+    padding:5px;
+    margin-bottom:1.4rem;
+    background:rgb(98, 128, 99);
+    color:#FFF;
+    font-size:1.1rem;
+}
+
+.tarefaLi {
+    background: rgb(98, 128, 99);
+    margin-bottom:20px;
+    padding:10px;
+    font-size:1.7rem;
+    color:#FFF;
+}
+
+.btnApagar {
+    margin-left:15px;
+    font-size:1.0rem;
+    padding:5px;
+    border-radius:10px;
+
+}
